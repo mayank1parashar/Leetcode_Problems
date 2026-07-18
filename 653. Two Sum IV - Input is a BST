@@ -1,1 +1,39 @@
 
+#include <stdbool.h>
+#include <stdlib.h>
+
+void inOrder(struct TreeNode* root, int* arr, int* size) {
+    if (root == NULL) return;
+    
+    inOrder(root->left, arr, size);
+    arr[(*size)++] = root->val; 
+    inOrder(root->right, arr, size);
+}
+
+bool findTarget(struct TreeNode* root, int k) {
+    int* arr = (int*)malloc(10005 * sizeof(int));
+    int size = 0;
+    
+    inOrder(root, arr, &size);
+    
+    int left = 0;
+    int right = size - 1;
+    
+    while (left < right) {
+        int currentSum = arr[left] + arr[right];
+        
+        if (currentSum == k) {
+            free(arr); 
+            return true;
+        }
+        else if (currentSum < k) {
+            left++; 
+        } 
+        else {
+            right--; 
+        }
+    }
+    
+    free(arr); 
+    return false;
+}
