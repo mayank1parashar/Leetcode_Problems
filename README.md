@@ -7,18 +7,18 @@
 ## 🧩 My LeetCode Profile
 
 <div align="center">
----
+
 <!-- Profile Stats Box -->
 <a href="https://leetcode.com/u/mayank1parashar/" target="_blank">
   <img src="https://leetcode-stats.vercel.app/api?username=mayank1parashar&theme=dark&border=rgba(255,255,255,0.15)&border_radius=15&show_icons=true" alt="LeetCode Stats" width="90%" />
 </a>
----
+
 <!-- Streak Days Box -->
 <br/>
 <a href="https://leetcard.jacoblin.cool/mayank1parashar?theme=dark&font=Baloo%202&ext=heatmap" target="_blank">
   <img src="https://leetcard.jacoblin.cool/mayank1parashar?theme=dark&font=Baloo%202&ext=heatmap" alt="LeetCode Streak" width="90%" />
 </a>
----
+
 <!-- Visit Profile Button -->
 <p align="center">
   <a href="https://leetcode.com/u/mayank1parashar/">
@@ -28,7 +28,7 @@
 
 </div>
 
----
+
 
 ## 📘 About This Repository
 
